@@ -19,9 +19,6 @@ with open('login_credentials.txt', 'r') as f:
 
 server.login(email, password)
 msg = MIMEMultipart()
-msg['From'] = 'Thomas'
-msg['To'] = 'krishans290@gmail.com'
-msg['Subject'] = 'Test'
 
 with open('message.txt', 'r') as f:
     message = f.read()
@@ -43,5 +40,5 @@ msg.attach(p)
 
 text = msg.as_string()
 
-server.sendmail(email, 'krishans290@gmail.com', text)
+server.sendmail(email, 'reciever_email@gmail.com', text)
 server.quit()
