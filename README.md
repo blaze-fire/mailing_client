@@ -4,6 +4,9 @@
 Email Account from [here](https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4NjxscEfqSukEOZv-BJzV5LqQL5o6LX9vuazEnF1YUSHbkixt9fdeZGon3GGMHBs1uyoQlTzrHmS2nIoi0gRM_JLC3xoA)
 
 <br>
+
+Here we write a python script to log into our mail account and then use smtplib protocol to send mails from there.
+
 To use the mailing list code : 
 
 1) Fork the repo 
